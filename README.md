@@ -31,12 +31,6 @@
 
 
 ## Collaborative Authors
-👤 **Emmanuel Fasogba**
-- GitHub: [@fashemma007](https://github.com/fashemma007)
-- LinkedIn: [@Emmanuel](https://www.linkedin.com/in/emmanuelofasogba/)	
-- Twitter: [@tz_emiwest](https://twitter.com/tz_emiwest)
+👤 **Muhib**
 
-👤 **McDonald Amure**
-- GitHub: [@Certifieddonnie](https://github.com/Certifieddonnie)
-- LinkedIn: [@McDonald](https://www.linkedin.com/in/mcdonald-amure-348238248)	
-- Twitter: [@CertifiedDonnie](https://twitter.com/CertifiedDonnie)
+👤 **Nwafor Ugochukwu Emmanuel**
