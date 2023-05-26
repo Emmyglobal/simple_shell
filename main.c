@@ -1,13 +1,12 @@
 #include "shell.h"
 
 /**
- * freeData -> Function that frees data structure
+ * free_data - frees data structure
  *
  * @datash: data structure
- * Return: Nothing
+ * Return: no return
  */
-
-void freeData(dataShell *datash)
+void free_data(data_shell *datash)
 {
 	unsigned int i;
 
@@ -21,17 +20,17 @@ void freeData(dataShell *datash)
 }
 
 /**
- * setData -> Function that initialize data structure
+ * set_data - Initialize data structure
+ *
  * @datash: data structure
- * @argv: argument vector
- * Return: Nothing
+ * @av: argument vector
+ * Return: no return
  */
-
-void setData(dataShell *datash, char **argv)
+void set_data(data_shell *datash, char **av)
 {
 	unsigned int i;
 
-	datash->argv = argv;
+	datash->av = av;
 	datash->input = NULL;
 	datash->args = NULL;
 	datash->status = 0;
@@ -48,27 +47,26 @@ void setData(dataShell *datash, char **argv)
 	}
 
 	datash->_environ[i] = NULL;
-	data->pid = aux_itoa(getpid());
+	datash->pid = aux_itoa(getpid());
 }
 
 /**
- * main -> Entry point
+ * main - Entry point
  *
- * @argc: Argument count
- * @argv: argument vector
+ * @ac: argument count
+ * @av: argument vector
  *
  * Return: 0 on success.
  */
-
-int main(int argc, char **argv)
+int main(int ac, char **av)
 {
-	dataShell datash;
-	(void) argc;
+	data_shell datash;
+	(void) ac;
 
 	signal(SIGINT, get_sigint);
-	setData(&datash, argv);
+	set_data(&datash, av);
 	shell_loop(&datash);
-	freeData($datash);
+	free_data(&datash);
 	if (datash.status < 0)
 		return (255);
 	return (datash.status);
