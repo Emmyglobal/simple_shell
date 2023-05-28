@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * rev_string - reverses a string.
+ * rev_string - Function that reverses a string.
  * @s: input string.
  * Return: no return.
  */
