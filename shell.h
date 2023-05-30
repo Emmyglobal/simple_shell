@@ -152,8 +152,8 @@ char *replaced_input(r_var **head, char *input, char *new_input, int nlen);
 char *rep_var(char *input, data_shell *datash);
 
 /* get_line.c */
-void bring_line(char **lineptr, size_t *n, char *buffer, size_t j);
-ssize_t get_line(char **lineptr, size_t *n, FILE *stream);
+void bringLine(char **lineptr, size_t *n, char *buffer, size_t j);
+ssize_t getLine(char **lineptr, size_t *n, FILE *stream);
 
 /* exec_line */
 int exec_line(data_shell *datash);
