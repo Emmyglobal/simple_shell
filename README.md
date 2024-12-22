@@ -1,4 +1,4 @@
-# Simple Shell Collaborative Project 
+# Simple Shell Collaborative Project
 > This is project on UNIX Shell. Here, we attempt to create a simple shell that mimics the Bash shell called **ssh**
 ## Project was completed using
 
@@ -16,21 +16,3 @@
 - No more than 5 functions per file
 - All header files should be include guarded
 - Write a README with the description of the project
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Collaborative Authors
-👤 **Muhib**
-
-👤 **Nwafor Ugochukwu Emmanuel**
